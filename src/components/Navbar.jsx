@@ -18,13 +18,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <a href="#testimonials" className="text-gray-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Testimonials</a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Contact</a>
           </nav>
-          <button
-            onClick={toggleDarkMode}
-            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors" // Lighter hover bg
-            aria-label="Toggle dark mode"
-          >
-            {darkMode ? <Sun size={20} className="text-yellow-400" /> : <Moon size={20} className="text-gray-500 dark:text-slate-300" />} {/* Adjusted moon color */}
-          </button>
+          
         </div>
       </div>
     </header>
